@@ -8,7 +8,7 @@ header{ 	/*Especificidad del selector = (001)*/
     margin: 0% 0% 2%;
     width: 100%;
 }
-p{ 	        /*Especificidad del selector = (001)*/
+h1{ 	        /*Especificidad del selector = (001)*/
     color: white;
     font-weight: bold;
 }
