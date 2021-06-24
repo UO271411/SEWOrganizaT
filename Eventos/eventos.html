@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Secci&oacute;n personal - Organiza-T</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../Organizacion/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="eventos.css"/>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="geolocation.js"></script>
+        <script src="meteo.js"></script> 
+        <script src="map.js"></script>
+        <!-- La API WebGL como bien sabemos, suele requerir del uso de algun archivo js complementario, en este caso la parte de maps de WebGL -->
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../Organizacion/index.html" title="Ir a Inicio">Organiza-T</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Secci&oacute;n personal</h1>
+            <h2>Te ofrecemos algunas herramientas para ayudarte con tu organización:</h2>
+            <img class="small" src="../multimedia/img/flecha-abajo.PNG" alt="Sigue leyendo">
+            <h3>Consulta la previsi&oacute;n meteorol&oacute;gica en tu zona</h3>
+            <p id="p1"></p>
+            <button id="boton1" onclick = "meteo1 = new Meteo(position.getLatitud(), position.getLongitud()).verJSON('#boton1','#p1');">¿Qu&eacute; tiempo hace hoy?</button>
+            <h3>Aqu&iacute; tienes un mapa de tu zona</h3>
+            <button onclick = "var map = new Map(position.getLatitud(), position.getLongitud()).getMap()">Mostrar mapa</button>
+            <div id = 'map'></div>
+        </main>
+        <footer>
+            <p>Creado por <em>UO271411</em></p>
+        </footer>
+    </body>
+</html>

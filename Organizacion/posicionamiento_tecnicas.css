@@ -1,0 +1,38 @@
+section{ 	/*Especificidad del selector = (001)*/
+	display: grid;
+	grid-template-areas: 'a a'
+						 'b b'
+                         'c d'
+                         'e e'
+                         'f f';
+}
+#introduccion{ 	/*Especificidad del selector = (011)*/
+    grid-area: a;
+}
+#arriba{ 	/*Especificidad del selector = (011)*/
+    display: grid;
+    grid-area: b;
+    grid-template-areas:    'titulo titulo titulo imagen'
+                            'texto texto texto imagen';           
+}
+#izquierda{ 	/*Especificidad del selector = (011)*/
+    grid-area: c;
+}
+#derecha{ 	/*Especificidad del selector = (011)*/
+    grid-area: d;
+}
+#abajo{ 	/*Especificidad del selector = (011)*/
+    grid-area: f;
+}
+#prepie{ 	/*Especificidad del selector = (011)*/
+    grid-area: e;
+}
+h2{ 	/*Especificidad del selector = (001)*/
+    grid-area: titulo;
+}
+img{ 	/*Especificidad del selector = (001)*/
+    grid-area: imagen;
+}
+p{ 	/*Especificidad del selector = (001)*/
+    grid-area: texto;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="lugares">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="lugar" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lugar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" />
+        <xs:element ref="descripcion" />
+        <xs:element ref="recomendacion" />
+        <xs:element ref="valoracion" />
+        <xs:element ref="direccion" />
+        <xs:element ref="coordenadas" />
+        <xs:element ref="fotografias" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string" />
+  <xs:element name="descripcion" type="xs:string" />
+  <xs:element name="recomendacion" type="xs:string" />
+  <xs:element name="direccion" type="xs:string" />
+  <xs:element name="valoracion" >
+	<xs:simpleType>
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"/>
+			<xs:maxExclusive value="6"/>
+		</xs:restriction>
+	</xs:simpleType>
+  </xs:element>
+  <xs:element name="coordenadas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="latitud" />
+        <xs:element ref="longitud" />
+        <xs:element ref="altura" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fotografias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="3" ref="foto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="latitud" type="xs:string" />
+  <xs:element name="longitud" type="xs:string" />
+  <xs:element name="altura">
+    <xs:simpleType>
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+  </xs:element>
+  <xs:element name="foto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="imagen" />
+        <xs:element ref="sitio" />
+        <xs:element ref="tipo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="imagen" type="xs:string" />
+  <xs:element name="sitio" type="xs:string" />
+  <xs:element name="tipo" type="xs:string" />
+</xs:schema>

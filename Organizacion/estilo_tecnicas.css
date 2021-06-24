@@ -1,0 +1,26 @@
+audio{ 	/*Especificidad del selector = (001)*/
+    margin: 1% 0% 3%;
+}
+img{ 	/*Especificidad del selector = (001)*/
+    height: 100%;
+    width: 85%;
+}
+#izquierda{ 	/*Especificidad del selector = (011)*/
+    margin-right: 2.5%;
+    text-align: justify;
+}
+#derecha{ 	/*Especificidad del selector = (011)*/
+    margin-left: 2.5%;
+    text-align: justify;
+}
+#prepie{
+    background-color: #e7e7e7; 
+    border-radius: 7%;
+    color: #5f5f5f;
+    font-weight: bolder;
+    margin: 2% 20%;
+}
+video{ 	/*Especificidad del selector = (001)*/
+    height: 50%;
+    width: 50%;
+}

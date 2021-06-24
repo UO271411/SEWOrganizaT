@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lugares SYSTEM "lugares.dtd">
+<lugares>
+    <lugar>
+        <nombre>Covadonga</nombre>
+        <descripcion>Pequeña parroquia en el concejo de Cangas de Onís. Es una localidad conocida por su historia relacionada con el Rey Pelayo y la reconquista de España.</descripcion>		
+		<recomendacion>Buscar en día despejado. Ojo si llueve, es en grandes cantidades.</recomendacion>
+        <valoracion>5</valoracion>
+		<direccion>Covadonga (Cangas de Onís), Asturias</direccion>
+		<coordenadas>
+			<latitud>43.308491</latitud>
+			<longitud>-5.054789</longitud>
+			<altura>257</altura>
+		</coordenadas>		
+		<fotografias>
+            <foto>
+                <imagen>http://www.cantabricoexperience.com/wp-content/uploads/2015/02/lagos-de-covadonga-asturias-620x264.jpg</imagen>
+                <sitio>
+                    Los lagos de Covadonga, un paisaje natural precioso, sobre todo, en días despejados. Toda visita a Asturias ha de tener parada aquí.
+                </sitio>                
+                <tipo>Panorámica</tipo>
+            </foto>
+            <foto>
+                <imagen>https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/10/basilica-de-covadonga_pal.jpg</imagen>
+                <sitio>
+                    Templo religioso de culto católico declarado Basílica menor el 11 de septiembre de 1901.
+                </sitio>                
+                <tipo>Posado</tipo>
+            </foto>
+            <foto>
+                <imagen>https://www.infocangasdeonis.com/images/cueva-covadonga-santina-capilla.jpg</imagen>
+                <sitio>
+                    Santuario de la imágen de la Virgen de Covadonga (popularmente conocida como la Santina).
+                </sitio>                
+                <tipo>Foto sin flash</tipo>
+            </foto>
+		</fotografias>
+    </lugar>
+    <lugar>
+        <nombre>Llanes</nombre>
+        <descripcion>Llanes es, posiblemente, el pueblo más turístico que visitar en Asturias y en verano se llena hasta los topes. Sigue conservando su gracia natural y es un buen lugar en el que pasar el día. </descripcion>		
+		<recomendacion>Lleva abrigo, estamos en Asturias amigo.</recomendacion>
+        <valoracion>3</valoracion>
+		<direccion>Llanes, Asturias</direccion>
+		<coordenadas>
+			<latitud>43.425159</latitud>
+			<longitud>-4.759100</longitud>
+			<altura>1177</altura>
+		</coordenadas>		
+		<fotografias>
+            <foto>
+                <imagen>https://guiadeasturias.com/wp-content/uploads/2016/02/XXXX5095562XXX88567_6248801593156698112_o.jpg</imagen>
+                <sitio>
+                    El Paseo de San Pedro, se trata de un camino de suaves formas, que contrasta con la dureza de los acantilados que se precipitan a la mar.
+                </sitio>                
+                <tipo>Panorámica/posado con paisaje</tipo>
+            </foto>
+		</fotografias>
+    </lugar>
+    <lugar>
+        <nombre>Gijón</nombre>
+        <descripcion>La eterna rival de Oviedo, Gijón, también tiene tanto encanto que te costará elegir entre la una y la otra (no obstante, esta es una batalla que ya tiene completamente ganada).  </descripcion>		
+		<recomendacion>Si tienes vehículo genial, si no, quizá te convenga usar el autobús.</recomendacion>
+        <valoracion>5</valoracion>
+		<direccion>Gijón, Asturias</direccion>
+		<coordenadas>
+			<latitud>43.543946</latitud>
+			<longitud>-5.665118</longitud>
+			<altura>3</altura>
+		</coordenadas>		
+		<fotografias>
+            <foto>
+                <imagen>http://agencia-asturias.com/wp-content/uploads/2017/03/04429_Gijon-cimadevilla.jpg</imagen>
+                <sitio>
+                    Cimadevilla es un barrio de la ciudad Asturiana de Gijón. Es el área más antigua de la ciudad, contando con vestigios arqueológicos de la época de administración romana, conservando también la estética de barrio de pescadores del siglo XIX.
+                </sitio>                
+                <tipo>Interés histórico/cultural</tipo>
+            </foto>
+            <foto>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/9/92/Universidad_Laboral_de_Gij%C3%B3n_estilo_cl%C3%A1sico_%28cropped%29_%28cropped%29.jpg</imagen>
+                <sitio>
+                    Universidad laboral, es la obra arquitectónica más importante realizada en el siglo XX en Asturias.
+                </sitio>                
+                <tipo>Reportaje (todo tipo de foto)</tipo>
+            </foto>
+		</fotografias>
+    </lugar>
+</lugares>

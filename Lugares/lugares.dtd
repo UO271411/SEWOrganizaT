@@ -1,0 +1,16 @@
+<!ELEMENT lugares (lugar*)>
+<!ELEMENT lugar (nombre, descripcion, recomendacion, valoracion, direccion, coordenadas, fotografias)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT recomendacion (#PCDATA)>
+<!ELEMENT valoracion (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT coordenadas (latitud, longitud, altura)>
+<!ELEMENT fotografias (foto+)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT foto (imagen, lugar, tipo)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT sitio (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>

@@ -1,0 +1,8 @@
+div.elemento{
+    border-color: black;
+    border-style: double;
+    border-width: thin;
+}
+h3{ 	/*Especificidad del selector = (001)*/
+    font-size: large;
+}

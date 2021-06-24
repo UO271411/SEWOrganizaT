@@ -1,0 +1,7 @@
+#map {  	/*Especificidad del selector = (100)*/
+    bottom:0; 
+    top:0;
+    text-align: justify;
+    height: 550px; 
+    width:100%; 
+}
